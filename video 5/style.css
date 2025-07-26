@@ -1,0 +1,21 @@
+td{
+    border: 2px solid black;
+}
+caption{
+   color: blue;
+}
+th{
+    color: red;
+}
+ol{
+    color: green;
+}
+ul{
+    color: purple;
+}
+body{
+    background-color: orange;
+}
+h1{
+    color: rgb(232, 18, 186);
+}
