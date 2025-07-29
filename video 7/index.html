@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn it</title>
+</head>
+
+<body>
+    <h1>
+        Form to apply for sigma wev development course - TA
+    </h1>
+    <form action="post">
+        <label for="username">Enter your user name </label><br><br>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terms" name="terms" value="agree">
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <label for="kab">Share your thoughts</label><br>
+            <textarea name="ka" id="kab" cols="30" rows="10">you can share your thought </textarea>
+        </div>
+
+        <div>
+            <select name="fruit" >select the fruit you like
+            <option value="" disabled selected>Select a fruit</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="grape">Grape</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
