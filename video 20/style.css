@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+div.first p.h {
+    background-color: yellow;
+    color: red;
+}
+div.first p {
+    background-color: blue;
+    color: white;
+}
+div.second p.g {
+    background-color: yellow;
+    color: red;
+}
+div.second p {
+    background-color: blue;
+    color: white;
+}
