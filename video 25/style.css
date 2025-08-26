@@ -1,0 +1,9 @@
+nav ul li {
+    list-style: devanagari;
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid black;
+    /* list-style-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png'); */
+    /* list-style-type: "k. "; */
+    list-style-type: disc;
+}
