@@ -1,0 +1,39 @@
+:root {
+    --main-color: aqua;
+    --secondary-color: lightgreen;
+    --seccolor: red;
+    --defpadding: 20px;
+    --defop: 0.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* div:first-child {
+    background-color: aqua;
+} */
+.nav {
+    background-color: var(--main-color);
+}
+
+.container {
+    background-color: var(--secondary-color);
+}
+
+ul li {
+    opacity: var(--defop);
+    list-style: none;
+    padding: var(--defpadding);
+    border : 2px solid var(--seccolor);
+}
+
+ul li:first-child {
+    --main-color: rgb(217, 54, 0);
+    background-color: var(--main-color,blue);
+}
+
+ul {
+    display: flex;
+}
