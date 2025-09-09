@@ -1,0 +1,42 @@
+body {
+    background-color: red;
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        border-color:2px solid black;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    body {
+        background-color: blue;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+}
+
+/* @media only screen and (min-width: 455px) {
+    body {
+        background-color: blue;
+    }
+} */
+
+
+/* @media not or only mediatype and (expressoins){
+CSS-Code;
+} */
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    background-color: steelblue;
+    width: 344px;
+    height: 344px;
+    padding: 3px;
+    margin: 3px;
+}
