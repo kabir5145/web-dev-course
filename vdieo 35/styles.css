@@ -1,0 +1,53 @@
+/* .box:first-child {
+    background-color: red;
+}
+
+.box::first-line{
+    color: yellow;
+} */
+
+/* .boxes * {
+    color: blue;
+    border: 4px solid black;
+}
+
+p,
+a,
+.box,
+[data-color="primary"] {
+    background-color: aqua;
+    margin-top: 45px;
+} */
+
+/* .box:nth-child(even) {
+    background-color: aqua;
+} */
+
+/* .box:nth-last-child(3) {
+    background-color: aqua;
+} */
+
+.boxes::before {
+    content: "harry is good";
+    color: red;
+}
+
+.boxes::after {
+    content: "harry is good";
+    color: blue
+}
+
+::selection {
+    background-color: aqua;
+    color: red;
+}
+
+.box::first-letter{
+    color: purple;
+    font-size: 55px;
+}
+
+input::placeholder{
+    color: red;
+    font-size: 20px;
+}
