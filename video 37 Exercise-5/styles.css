@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.back {
+    background-color: #a35b5b;
+}
+
+:root {
+    --main-color: aqua;
+    --secondary-color: green;
+    --color: yellow;
+}
+
+
+.box {
+    background-color: var(--main-color);
+    height: 60px;
+    border: 3px solid black;
+}
+
+.box_1 {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: var(--secondary-color);
+    float: right;
+}
+
+.box_2 {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: var(--color);
+    float: left;
+}
