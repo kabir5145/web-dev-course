@@ -27,6 +27,7 @@
     height: 500px;
     background-color: var(--secondary-color);
     float: right;
+    margin: 30px 120px;
 }
 
 .box_2 {
@@ -35,4 +36,5 @@
     height: 500px;
     background-color: var(--color);
     float: left;
+    margin: 30px 120px;
 }
