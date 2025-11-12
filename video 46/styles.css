@@ -1,0 +1,52 @@
+.container {
+    background-color: rgb(34, 109, 109);
+    height: 80vh;
+    width: 30vw;
+}
+
+.box {
+    width: 34px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: aqua;
+    /*
+    animation: kabirKaAnimation 4s infinite alternate; 
+    animation: kabirKaAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-play-state: paused; 
+    */
+    animation: kabirKaAnimation 4s ease-in-out 1s backwards,
+        kabir2 4s ease-in-out 1s backwards;
+
+}
+
+@keyframes kabirKaAnimation {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+        transform: translateX(1000px);
+    }
+}
+
+@keyframes kabir2 {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: yellow;
+        transform: translateX(500px);
+    }
+    100% {
+        background-color: green;
+        transform: translateX(1000px) rotate(360deg);
+    }
+}
