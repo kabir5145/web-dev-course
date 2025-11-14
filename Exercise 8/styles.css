@@ -1,0 +1,47 @@
+*{
+    background-color: green;
+}
+.container {
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    background-color: blue;
+}
+
+.box {
+    bottom: 0;
+    left: 0;
+    width: 121px;
+    height: 121px;
+    background: red;
+    border-radius: 70%;
+    position: absolute;
+    animation: ball 2s infinite linear;
+}
+
+@keyframes ball {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(125px, -60px); /* move forward + up */
+        background-color: yellow;
+    }
+
+    50% {
+        transform: translate(250px, 0px); 
+        background-color: green;
+    }
+
+    75% {
+        transform: translate(375px, -60px); 
+        background-color: orchid;
+    }
+
+    100% {
+        transform: translate(500px, 0px); 
+        background-color: aqua;
+    }
+}
+
